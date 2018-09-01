@@ -1,0 +1,120 @@
+li {
+    font-family: 'Ubuntu', sans-serif;
+    text-transform: uppercase;
+    display: inline;
+    padding: 8px 18px;
+    margin: 9px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin: 40px 5px;
+}
+
+.size {
+    background-color: rgb(244, 243, 242);
+    color: rgb(115, 115, 115);
+}
+
+.colors {
+    color: rgb(255, 255, 255);
+}
+
+#c_amatista {
+    background-color: hsla(282, 39%, 62%, 1);
+}
+
+#c_cielo {
+    background-color: hsl(204, 70%, 62%);
+}
+
+#c_esmeralda {
+    background-color: rgb(102, 214, 141);
+}
+
+#c_asfalto {
+    background-color: rgb(92, 109, 126);
+}
+
+#c_topazio {
+    background-color: rgba(233, 151, 78, 1);
+}
+
+#c_rubi {
+    background-color: rgba(235, 111, 98, 1);
+}
+
+#b_simple {
+    color: rgba(115, 115, 115, 1);
+    border: 1.3px solid rgba(115, 115, 115, 1);
+}
+
+#b_amatista {
+    color: hsla(282, 39%, 62%, 1);
+    border: 1.3px solid hsla(282, 39%, 62%, 1);
+}
+
+#b_cielo {
+    color: hsl(204, 70%, 62%);
+    border: 1.3px solid hsl(204, 70%, 62%);
+}
+
+#b_esmeralda {
+    color: rgb(102, 214, 141);
+    border: 1.3px solid rgb(102, 214, 141);
+}
+
+#b_asfalto {
+    color: rgb(92, 109, 126);
+    border: 1.3px solid rgb(92, 109, 126);
+}
+
+#b_topazio {
+    color: rgba(233, 151, 78, 1);
+    border: 1.3px solid rgba(233, 151, 78, 1);
+    ;
+}
+
+#b_rubi {
+    color: rgba(235, 111, 98, 1);
+    border: 1.3px solid rgba(235, 111, 98, 1);
+}
+
+#co_asfalto {
+    background-color: rgb(92, 109, 126);
+    color: rgb(255, 255, 255);
+}
+
+#co_cielo {
+    color: hsl(204, 70%, 62%);
+    border: 1.3px solid hsl(204, 70%, 62%);
+}
+
+#co_esmeralda {
+    background-color: rgb(102, 214, 141);
+    color: rgb(255, 255, 255);
+}
+
+#size_s, #co_esmeralda {
+    padding: 5px 10px;
+    font-size: 9.5px;
+}
+
+#co_rubi {
+    color: rgba(235, 111, 98, 1);
+    border: 1.3px solid rgba(235, 111, 98, 1);
+}
+
+#size_b, #co_rubi, #co_asfalto {
+    padding: 8px 13px;
+    margin-left: 1rem;
+    font-size: 27px;
+}
+
+li:hover {
+    background: #2c3e501a;
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid #2c3e501a;
+}
+
